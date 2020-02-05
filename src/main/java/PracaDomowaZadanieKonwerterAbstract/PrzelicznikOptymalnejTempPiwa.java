@@ -1,6 +1,6 @@
-package PracaDomowaZadanieKonwerter;
+package PracaDomowaZadanieKonwerterAbstract;
 
-public class PrzelicznikOptymalnejTempPiwa implements PrzelicznikService {
+public class PrzelicznikOptymalnejTempPiwa extends PrzelicznikService {
     @Override
     public void przeliczStopnie(double temp) {
 
